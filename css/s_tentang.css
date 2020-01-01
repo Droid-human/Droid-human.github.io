@@ -1,0 +1,28 @@
+html, body {
+    font-family: fantasy;
+    background: linear-gradient(to left, #1ee5ff, #0077ff, #2f00ff);
+}
+
+img{
+    max-width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+table, th , td{
+    border: 1px solid #121212;
+}
+
+td{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2{
+    padding-left: 40%;
+    color: #eeff00;
+    text-shadow: 2px 2px 5px #ffffff;
+}
+
+

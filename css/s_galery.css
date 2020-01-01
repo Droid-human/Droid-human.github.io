@@ -1,0 +1,65 @@
+html, body {
+    font-family: fantasy;
+    background : url(../gambar/night.jpg);
+    background-size: 100%;
+}
+
+.menu{
+    float: right;
+    list-style: none;
+ }
+ 
+ .menu li{
+    display: inline;
+ }
+ 
+ .menu li a{
+    font-size: 15px;
+    color:  #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-right: 30px;
+ }
+ 
+ .menu li a:hover{
+     color: #3543ff;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+
+
+ p{
+     padding-left: 20px;
+     padding-right: 40%;
+ }
+
+h2{
+    text-shadow:0 0 20px aqua;
+    color : #fff;
+}
+
+.galeri {
+    position: block;
+}
+
+.galeri div{
+    padding-top: 10px;
+    padding-left: 190px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.galeri div img{
+    width: 200px;
+    height : 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #fff;
+    transition-duration: 0.8s;
+}
+
+.galeri div img:hover{
+    box-shadow: 0 0 16px rgb(1, 217, 255);
+    transform: scale(1.50);
+}
